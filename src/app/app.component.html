@@ -1,0 +1,5 @@
+<app-navbar></app-navbar>
+<div *ngIf="isComponent()">
+    <app-components></app-components></div>
+<router-outlet></router-outlet>
+<app-footer *ngIf="removeFooter()"></app-footer>
